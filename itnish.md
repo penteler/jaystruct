@@ -79,3 +79,67 @@ C:\Users\surin\vcsol\jaystruct>git pull
 Already up to date.
 
 C:\Users\surin\vcsol\jaystruct>
+
+C:\Users\surin\vcsol\jaystruct>cd..
+
+C:\Users\surin\vcsol>git clone https://github.com/penteler/rugin.git
+Cloning into 'rugin'...
+remote: Enumerating objects: 105, done.
+remote: Counting objects: 100% (105/105), done.
+remote: Compressing objects: 100% (81/81), done.
+remote: Total 105 (delta 35), reused 88 (delta 18), pack-reused 0
+Receiving objects: 100% (105/105), 990.62 KiB | 3.15 MiB/s, done.
+Resolving deltas: 100% (35/35), done.
+
+C:\Users\surin\vcsol>cd rugin
+
+C:\Users\surin\vcsol\rugin>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 7C30-8CE9
+
+ Directory of C:\Users\surin\vcsol\rugin
+
+11-04-2024  14:56    <DIR>          .
+11-04-2024  14:56    <DIR>          ..
+11-04-2024  14:56             1,765 ernO.md
+11-04-2024  14:56             2,290 mrCith.md
+               2 File(s)          4,055 bytes
+               2 Dir(s)  20,292,620,288 bytes free
+
+C:\Users\surin\vcsol\rugin>git checkout tobe
+branch 'tobe' set up to track 'origin/tobe'.
+Switched to a new branch 'tobe'
+
+C:\Users\surin\vcsol\rugin>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 7C30-8CE9
+
+ Directory of C:\Users\surin\vcsol\rugin
+
+11-04-2024  14:57    <DIR>          .
+11-04-2024  14:57    <DIR>          ..
+11-04-2024  14:57             6,604 accessingArguments.md
+11-04-2024  14:57    <DIR>          calculator
+11-04-2024  14:56             1,765 ernO.md
+11-04-2024  14:57            34,582 fil
+11-04-2024  14:57             3,257 gitup.md
+11-04-2024  14:57               145 inish.md
+11-04-2024  14:57             4,028 mrCith.md
+11-04-2024  14:57             1,583 one.rs
+               7 File(s)         51,964 bytes
+               3 Dir(s)  20,288,466,944 bytes free
+
+C:\Users\surin\vcsol\rugin>fil
+'fil' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\surin\vcsol\rugin>vim fil
+'vim' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\surin\vcsol\rugin>git config --global --edit
+hint: Waiting for your editor to close the file...
+←[23;0;0t
+Press ENTER or type command to continue
+
+C:\Users\surin\vcsol\rugin>
