@@ -143,3 +143,20 @@ hint: Waiting for your editor to close the file...
 Press ENTER or type command to continue
 
 C:\Users\surin\vcsol\rugin>
+git pull
+warning: redirecting to https://github.com/penteler/jaystruct.git/
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 17 (delta 6), reused 17 (delta 6), pack-reused 0
+Unpacking objects: 100% (17/17), 3.17 KiB | 29.00 KiB/s, done.
+From https://www.github.com/penteler/jaystruct
+   3a9667c..77f37e8  main       -> origin/main
+Updating 3a9667c..77f37e8
+Fast-forward
+ index.html             |   5 +-
+ itnish.md              | 145 +++++++++++++++++++++++++++++++++++++++++++++++++
+ js/math/graph.js       |   7 +++
+ js/primitives/point.js |   5 ++
+ 4 files changed, 160 insertions(+), 2 deletions(-)
+ create mode 100644 itnish.md
