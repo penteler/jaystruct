@@ -1,3 +1,9 @@
+local config
+```edit
+git config user.name "Your Name Here"
+git config user.email your@email.example
+
+```
 after makeing segments
 ```output
 
