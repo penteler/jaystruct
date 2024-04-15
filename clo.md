@@ -3,6 +3,9 @@ local config
 git config user.name "Your Name Here"
 git config user.email your@email.example
 
+git config --local --edit
+hint: Waiting for your editor to close the file... 
+ *  History restored
 ```
 after makeing segments
 ```output
