@@ -1,11 +1,14 @@
+
+###45
 local config
 ```edit
 git config user.name "Your Name Here"
 git config user.email your@email.example
-
+git checkout -b editor
 git config --local --edit
 hint: Waiting for your editor to close the file... 
  *  History restored
+ git checkout
 ```
 after makeing segments
 ```output
