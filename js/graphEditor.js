@@ -22,10 +22,18 @@ class GraphEditor {
             this.graph.addPoint(mouse);
             this.selected = mouse;
         });
+        this.canvas.addEventListener("mousemove", (evt) =>{
+            const mouse = new Point(evt.offsetX, evt.offsetY);
+            this.hovered = getNearestPoint(mouse, this.graph.points);
+        });
     }
+    
 
     display() {
         this.graph.draw(this.ctx);
+        if (this.hovered) {
+            this.hovered.draw(this.ctx, { fill: true });            
+        }
         if (this.selected) {
             this.selected.draw(this.ctx, { outline: true });            
         }
