@@ -1,7 +1,7 @@
 
 ###45
 
-[ \frac{8}{2} ]
+\[ \frac{8}{2} \]
 
 local config
 ```edit
