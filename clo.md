@@ -1,5 +1,8 @@
 
 ###45
+
+[ \frac{8}{2} ]
+
 local config
 ```edit
 git config user.name "Your Name Here"
@@ -10,6 +13,8 @@ hint: Waiting for your editor to close the file...
  *  History restored
  git checkout
 ```
+![image](1.jpg)
+###### es
 after makeing segments
 ```output
 
