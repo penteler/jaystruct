@@ -1,0 +1,37 @@
+:root {
+  --background-color-light: #ffffff;
+  --text-color-light: #000000;
+  --background-color-dark: #121212;
+  --text-color-dark: #ffffff;
+}
+body {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+body {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+.dark-mode {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+}
+h2{
+    color: white;
+    font-family: fantasy;
+}
+button { 
+    color:#050; 
+    font: old 84% 'trebuchet ms',helvetica,sans-serif; 
+    background-color:#fed; 
+    border:1px solid; 
+    border-color: #696 #363 #363 #696; 
+}
+p {
+	color: gray;
+	font-family: cursive;
+}
+#myCanvas {
+    background-color: #2a5
+}

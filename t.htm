@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<style>
+#myButton {
+  background-color: lightgrey;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+#myButton.active {
+  background-color: green;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Change Button Text and Style</h2>
+
+<button id="myButton" onclick="toggleButton()">Click me</button>
+
+<script>
+function toggleButton() {
+  var button = document.getElementById("myButton");
+
+  if (button.classList.contains("active")) {
+    button.classList.remove("active");
+    button.innerHTML = "Click me";
+  } else {
+    button.classList.add("active");
+    button.innerHTML = "Clicked!";
+  }
+}
+</script>
+<script>
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+}
+function changeText() {
+  document.getElementById("dark").innerHTML = "Used";
+}
+function darkText() {
+  toggleDarkMode();
+  changeText();
+}
+</script>
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='1.webp'">Turn on the light</button>
+
+<img id="myImage" src="1.webp" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='1.jpg'">Turn off the light</button>
+
+
+<p id="change">JavaScript can change HTML content.</p>
+
+<button id="dark" onclick="darkText()">Click me to change text</button>
+
+
+
+<p id="demo">JavaScript can hide HTML elements.</p>
+
+<button onclick="hideText()">Hide text</button>
+<button onclick="showText()">Show text</button>
+
+<script>
+function hideText() {
+  document.getElementById("demo").style.display = "none";
+}
+
+function showText() {
+  document.getElementById("demo").style.display = "block";
+}
+</script>
+<p id="font" style="color:blue;">JavaScript can change HTML styles (CSS).</p>
+<!-- This paragraph element has an id of "demo" and a style attribute that sets its initial color to blue. -->
+
+<button onclick="changeStyle()">Change style</button>
+<!-- This button has an onclick attribute that calls the changeStyle() function when clicked. -->
+
+<script>
+function changeStyle() {
+  document.getElementById("font").style.color = "red";
+  // This function changes the color of the element with id "demo" to red.
+
+  document.getElementById("font").style.fontSize = "20px";
+  // This function changes the font size of the element with id "demo" to 20px.
+}
+</script>
+<!-- This script tag contains the JavaScript code that defines the changeStyle() function. -->
+</body>
+</html>
